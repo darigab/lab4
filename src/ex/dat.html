@@ -1,0 +1,20 @@
+ <div> 
+		<fieldset>
+		<legend>Students:</legend>
+		<p>ID: user.getId()<br>
+		First Name: user.getFirstName()<br>
+		Last Name: user.getLastName()</p><br>
+		<p>Update student:</p>
+			
+		
+		<form name='testForm1' action="/deleting" onSubmit="return testing(testform1)" method=post>
+		ID: <input type='text' name='id' value="id"><br>
+		<input type='submit' value='Delete'></form> 
+		
+		<form name='testform' action="/updating" onSubmit="return testing(testform)" method=post>
+		ID: <input type='text' name='id' value="id"><br>
+		First name: <input type='text' name='FirstName' value="FirstName"><br>
+		Last name: <input type='text' name='LastName' value="LastName"><br>
+		<input type='submit' value='Update'></form> 
+		</fieldset>
+		</div>
